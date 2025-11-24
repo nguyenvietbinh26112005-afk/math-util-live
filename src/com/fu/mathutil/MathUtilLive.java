@@ -21,6 +21,11 @@ public class MathUtilLive {
         //may/ham ai do viet khi chay thuc te la may - actual, gai su 120
         //if excepted == actual, ham ngon trong tinh huong nay
         //MathUtil.getFactorial(-5);
+        
+        //THÊM CODE SAU LAN DAU TIEN LAM CHUYEN AY -  CODE LEN SERVER  24/11/2025 7:44pm
+        System.out.println("1! = 1; actual: " + MathUtil.getFactorial(1));
+        System.out.println("3! = 6; actual: " + MathUtil.getFactorial(6));
+        
         System.out.println("6! = 720; actual: " + MathUtil.getFactorial(6));
         System.out.println("0! = 1; actual: " + MathUtil.getFactorial(1 ));
         
